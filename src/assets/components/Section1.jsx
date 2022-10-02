@@ -12,7 +12,7 @@ export const Section1 = () => {
               Mobile Fiber{" "}
             </h1>
             <img className="flex sm:hidden" src={LogoMobileBlack} alt="" />
-            <h2 className="mt-[-1rem] ml-7 sm:mt-[-2rem] sm:ml-[0.7rem] drop-shadow-lg">
+            <h2 className="mt-[-1rem] text-center w-full sm:mt-[-2rem] sm:ml-[0.7rem] drop-shadow-lg">
               Wireless Re-Imagined
             </h2>
           </div>

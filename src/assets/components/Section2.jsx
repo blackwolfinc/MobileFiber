@@ -8,7 +8,7 @@ export const Section2 = () => {
         <h1 className="text-[3rem] sm:text-[6rem]  font-HeaderSection">
           Up to 1Gbps
         </h1>
-        <h1 className="text-sm sm:text-[1.7rem] mt-[-1rem] text-center">
+        <h1 className="text-sm mt-[-0.6rem] sm:text-[1.7rem] sm:mt-[-1rem] text-center">
           It’s time to boost your home internet experience.
         </h1>
       </div>
@@ -22,7 +22,7 @@ export const Section2 = () => {
         <div className="purpleGradient text-[#FBFBFB] min-w-[25rem] px-10  text-[1.8rem]  py-2 rounded-2xl  ml-[-18rem] shadow-xl	">
           Enjoy a Wi-Fi 6 router on us.
         </div>
-        <div className="bg-[#574892] bg-gradient-to-t from-[#574892] to-[#574892] text-[#FBFBFB] text-[1.8rem]   ml-[-10rem] min-w-[25rem] px-10  py-2 rounded-2xl shadow-xl	">
+        <div className="bg-[#574892] bg-gradient-to-t from-[#574892] to-[#574892] text-[#FBFBFB] text-[1.8rem]   ml-[-10rem] sm:min-w-[10rem] px-10  py-2 rounded-2xl shadow-xl	">
           24/7 support
         </div>
         <div className="bg-[#574892] bg-gradient-to-t from-[#574892] to-[#574892] text-[#FBFBFB] text-[1.8rem]  min-w-[25rem] px-10 ml-[48rem]  py-2 mt-[10rem] rounded-2xl shadow-xl	">
