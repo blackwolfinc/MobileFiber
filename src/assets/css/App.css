@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+.backgroundSection1 {
+  background-image: url(../image/background/BackgroundSection1.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top !important;
+  margin-top: -4rem !important;
+}
+
+@media all and (max-width: 430px) {
+  .backgroundSection1 {
+    background-image: url(../image/background/BackgroundSection1.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: -40rem 3rem !important;
+    margin-top: -4rem !important;
+  }
+}
+
+.backgroundSection2 {
+  background-image: url(../image/background/BackgroundSection2.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top !important;
+  margin-top: -4rem !important;
+}
+
+@media all and (max-width: 430px) {
+  .backgroundSection2 {
+    background-image: url(../image/background/BackgroundSection2.png);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: -7rem 5rem !important;
+    margin-top: -2rem !important;
+  }
+}
+
+.font-Header {
+  font-family: "Bungee Hairline", cursive;
+}
+@font-face {
+  font-family: "Bruno Ace SC";
+  src: url("./Font/BrunoAceSC-Regular.woff2") format("woff2"),
+    url("./Font/BrunoAceSC-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-HeaderSection {
+  font-family: "Bruno Ace SC";
+}
+
+.purpleGradient {
+  background: linear-gradient(92.44deg, #694892 47.96%, #574892 95.15%);
+}
