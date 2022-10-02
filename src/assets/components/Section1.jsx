@@ -7,11 +7,15 @@ export const Section1 = () => {
       <div className="flex flex-col w-full mb-[-8rem]">
         <div className="flex w-full flex-row mb-[2rem]">
           <div className="w-full hidden sm:flex sm:w-4/12"></div>
-          <div className="w-full mt-[-3rem] sm:mt-0   flex-col  sm:w-7/12  flex  ml-[1rem] mb-z ">
+          <div className="w-full mt-[-3rem] sm:mt-0  justify-center items-center  flex-col  sm:w-7/12  flex  ml-[1rem] mb-z ">
             <h1 className="hidden sm:flex text-[2rem]  sm:text-[5.5rem] font-Header">
               Mobile Fiber{" "}
             </h1>
-            <img className="flex sm:hidden" src={LogoMobileBlack} alt="" />
+            <img
+              className="flex sm:hidden max-w-[18rem]"
+              src={LogoMobileBlack}
+              alt=""
+            />
             <h2 className="mt-[-1rem] text-center w-full sm:mt-[-2rem] sm:ml-[0.7rem] drop-shadow-lg">
               Wireless Re-Imagined
             </h2>
