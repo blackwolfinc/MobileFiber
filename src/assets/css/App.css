@@ -73,6 +73,42 @@
   }
 }
 
+.backgroundSection4 {
+  background-image: url(../image/background/BackgroundSection4.png);
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: right !important;
+  margin-top: -9rem !important;
+}
+
+@media all and (max-width: 430px) {
+  .backgroundSection4 {
+    background-image: url(../image/background/BackgroundSection4.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: top;
+    margin-top: 0rem !important;
+  }
+}
+
+.backgroundSection5 {
+  background-image: url(../image/background/BackgroundSection5.png);
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: left !important;
+  margin-top: -4rem !important;
+}
+
+@media all and (max-width: 430px) {
+  .backgroundSection5 {
+    background-image: url(../image/background/BackgroundSection5.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: top;
+    margin-top: -2rem !important;
+  }
+}
+
 .font-Header {
   font-family: "Bungee Hairline", cursive;
 }
