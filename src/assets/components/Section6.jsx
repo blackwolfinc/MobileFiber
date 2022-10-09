@@ -72,7 +72,7 @@ export const Section6 = () => {
           </div>
         </Carousel>
       </div>
-      <div className=" sm:hidden sm:flex scale-75">
+      <div className=" sm:hidden sm:flex scale-[85%]">
         <Carousel
           useArrowKeys={true}
           responsive={true}
@@ -82,7 +82,7 @@ export const Section6 = () => {
           swiping={true}
           className={` flex justify-between gap-[0rem]  sm:mt-[4rem] items-center`}
           rightArrow={
-            <div className="h-[3rem] flex items-center absolute   justify-center ml-[0.5rem] sm:ml-[-4rem] w-[3rem] rounded-md ">
+            <div className="h-[3rem] flex items-center absolute   justify-center ml-[0rem] sm:ml-[-4rem] w-[3rem] rounded-md ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -100,7 +100,7 @@ export const Section6 = () => {
             </div>
           }
           leftArrow={
-            <div className="h-[3rem] absolute flex items-center   justify-center ml-[-3.5rem]  rounded-md sm:ml-[2rem]  z-40  w-[3rem] ">
+            <div className="h-[3rem] absolute flex items-center   justify-center ml-[-2.5rem]  rounded-md sm:ml-[2rem]  z-40  w-[3rem] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

@@ -153,3 +153,30 @@ html {
 .purpleGradient {
   background: linear-gradient(92.44deg, #694892 47.96%, #574892 95.15%);
 }
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #6948924c;
+
+  transform-origin: 0%;
+  border-radius: 5rempx;
+  z-index: 100;
+}
+
+@media all and (max-width: 430px) {
+  .progress-bar {
+    position: fixed;
+    top: 4.6rem;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #6948924c;
+    transform-origin: 0%;
+    border-radius: 5rempx;
+    z-index: 100;
+  }
+}
