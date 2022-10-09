@@ -9,7 +9,7 @@ export const Section4 = () => {
         we’re here for you.
       </div>
       <div className="flex  justify-center">
-        <button className="mt-[7.3rem] sm:mt-[5.5rem]  bg-[#694892] px-4 py-2 sm:px-12   sm:py-4 mr-[0rem]  sm:mr-[-3rem]  sm:border-[4px] sm:rounded-[24px] w-full sm:w-fit">
+        <button className="mt-[7.3rem] sm:mt-[5.5rem]  bg-[#694892] px-4 py-3 sm:px-12   sm:py-4 mr-[0rem]  sm:mr-[-3rem]  sm:border-[4px] sm:rounded-[24px] w-full sm:w-fit">
           <h4 className="text-[#FBFBFB] font-HeaderSection"> Contact Us</h4>
         </button>
       </div>

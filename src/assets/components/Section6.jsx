@@ -129,7 +129,7 @@ export const Section6 = () => {
           </div>
         </Carousel>
       </div>
-      <p className=" w-10/12 sm:w-9/12  sm:text-center  m-auto mt-[5rem] sm:mt-[10rem]  font-light   text-xl sm:text-[2rem] tracking-wide 	 leading-[2rem] sm:leading-[2.6rem] fontInter">
+      <p className=" w-10/12 sm:w-9/12  sm:text-center  m-auto mt-[2rem] sm:mt-[10rem]  font-light   text-xl sm:text-[2rem] tracking-wide 	 leading-[2rem] sm:leading-[2.6rem] fontInter">
         Our network is built to ensure that traffic get’s to it’s destination In
         the most efficient way. By default, your traffic is handled by our
         premium priority network. Need more? Then consider <br /> <br />
