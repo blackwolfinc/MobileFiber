@@ -7,7 +7,7 @@ import Slide4 from "../image/slider/Slide4.png";
 
 export const Section6 = () => {
   return (
-    <div className="bg-gradient-to-b from-[#3a2e6686] mb-20  to-[#3a2e6600] mt-[3rem] sm:mt-[15rem]      sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
+    <div className="bg-gradient-to-b from-[#3a2e6686] mb-[5rem] sm:mb-[10rem] to-[#3a2e6600] mt-[3rem] sm:mt-[15rem]      sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
       <div className="hidden sm:visible sm:flex">
         {" "}
         <Carousel
@@ -56,16 +56,16 @@ export const Section6 = () => {
           }
         >
           <div className="h-[20rem] w-[30rem] mx-[8rem] ">
-            <img className="h-full w-full" src={Slide1} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide1} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] mx-[8rem]   ">
-            <img className="h-full w-full" src={Slide2} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide2} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] mx-[8rem]   ">
-            <img className="h-full w-full" src={Slide3} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide3} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] mx-[8rem]  ">
-            <img className="h-full w-full" src={Slide4} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide4} alt="" />
           </div>
         </Carousel>
       </div>
@@ -116,20 +116,20 @@ export const Section6 = () => {
           }
         >
           <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide1} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide1} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide2} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide2} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide3} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide3} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide4} alt="" />
+            <img className="h-full w-full rounded-md" src={Slide4} alt="" />
           </div>
         </Carousel>
       </div>
-      <p className=" w-10/12 sm:w-9/12 sm:text-center m-auto mt-[3rem] sm:mt-[20rem]  text-xl sm:text-[2rem]  tracking-wide	 leading-[2.6rem] fontInter">
+      <p className=" w-10/12 sm:w-9/12 sm:text-center  m-auto mt-[5rem] sm:mt-[10rem]  text-xl sm:text-[2rem]  tracking-wide	 leading-[1.8rem] sm:leading-[2.6rem] fontInter">
         Our network is built to ensure that traffic get’s to it’s destination In
         the most efficient way. By default, your traffic is handled by our
         premium priority network. Need more? Then consider <br /> our further

@@ -7,7 +7,11 @@ import SlideBawah from "../image/slider/SlideBawah.png";
 
 export const Section7 = () => {
   return (
-    <div className="backgroundSection6 mt-[30rem]  relative     sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
+    <div className="backgroundSection6 sm:mt-[30rem]  relative     sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
+      <h1 className="w-full text-center text-[2rem] sm:text-[3rem] font-HeaderSection">
+        Our Patner{" "}
+      </h1>
+
       <div className="hidden sm:visible sm:flex">
         <Carousel
           useArrowKeys={true}
@@ -18,7 +22,7 @@ export const Section7 = () => {
           swiping={true}
           className={` flex justify-between gap-[0rem]  mb-[3rem] mt-[4rem]  items-center`}
           rightArrow={
-            <div className="h-[3rem] flex items-center absolute mt-[-1rem]  justify-center ml-[-4rem] w-[3rem] rounded-md bg-[#0000004b]">
+            <div className="h-[3rem] flex items-center absolute mt-[-1rem]  justify-center ml-[-4rem] w-[3rem] rounded-md bg-[#0000001c]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -36,7 +40,7 @@ export const Section7 = () => {
             </div>
           }
           leftArrow={
-            <div className="h-[3rem] absolute flex items-center   justify-center ml-[2rem]  z-40  w-[3rem] ≈  bg-[#0000004b]">
+            <div className="h-[3rem] absolute flex items-center   justify-center ml-[2rem]  z-40  w-[3rem]   bg-[#0000001c]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -61,9 +65,9 @@ export const Section7 = () => {
               alt=""
             />
           </div>
-          <div className="h-[10rem] m-auto   mx-[8rem] flex justify-center ">
+          <div className="h-[10rem] m-auto  mx-[8rem]   flex justify-center">
             <img
-              className="max-w-[50rem] max-h-[2rem] scale-75"
+              className="max-w-[50rem]  max-h-[15rem] scale-75"
               src={SlideBawah}
               alt=""
             />
@@ -80,7 +84,7 @@ export const Section7 = () => {
           slide={1}
           swipeOn={true}
           swiping={true}
-          className={` flex justify-between gap-[0rem]  mb-[10rem] sm:mt-[4rem] items-center`}
+          className={` flex justify-between gap-[0rem]  mb-[6rem] sm:mb-[8rem] sm:mt-[4rem] items-center`}
           rightArrow={
             <div className="h-[3rem] flex items-center absolute justify-center ml-[-4rem] w-[3rem] rounded-md ">
               <svg
