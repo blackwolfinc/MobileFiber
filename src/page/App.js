@@ -5,6 +5,7 @@ import { Section3 } from "../assets/components/Section3";
 import { Section4 } from "../assets/components/Section4";
 import { Section5 } from "../assets/components/Section5";
 import { Section6 } from "../assets/components/Section6";
+import { Section7 } from "../assets/components/Section7";
 import "../assets/css/App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Section4 />
       <Section5 />
       <Section6 />
+      <Section7 />
     </div>
   );
 }

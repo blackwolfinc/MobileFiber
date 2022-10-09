@@ -3,21 +3,20 @@ import React from "react";
 import Slide1 from "../image/slider/Slide1.png";
 import Slide2 from "../image/slider/Slide2.png";
 import Slide3 from "../image/slider/Slide3.png";
-import Slide4 from "../image/slider/Slide4.png";
+import SlideBawah from "../image/slider/SlideBawah.png";
 
-export const Section6 = () => {
+export const Section7 = () => {
   return (
-    <div className="bg-gradient-to-b from-[#3a2e6686] mb-20  to-[#3a2e6600] mt-[3rem] sm:mt-[15rem]      sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
+    <div className="backgroundSection6 mt-[30rem]  relative     sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
       <div className="hidden sm:visible sm:flex">
-        {" "}
         <Carousel
           useArrowKeys={true}
           responsive={true}
-          show={2.8}
+          show={1}
           slide={1}
           swipeOn={true}
           swiping={true}
-          className={` flex justify-between gap-[0rem]  sm:mt-[4rem] items-center`}
+          className={` flex justify-between gap-[0rem]  mb-[3rem] mt-[4rem]  items-center`}
           rightArrow={
             <div className="h-[3rem] flex items-center absolute mt-[-1rem]  justify-center ml-[-4rem] w-[3rem] rounded-md bg-[#0000004b]">
               <svg
@@ -55,21 +54,25 @@ export const Section6 = () => {
             </div>
           }
         >
-          <div className="h-[20rem] w-[30rem] mx-[8rem] ">
-            <img className="h-full w-full" src={Slide1} alt="" />
+          <div className="h-[10rem] m-auto  mx-[8rem]   flex justify-center">
+            <img
+              className="max-w-[50rem]  max-h-[15rem] scale-75"
+              src={SlideBawah}
+              alt=""
+            />
           </div>
-          <div className="h-[20rem] w-[30rem] mx-[8rem]   ">
-            <img className="h-full w-full" src={Slide2} alt="" />
-          </div>
-          <div className="h-[20rem] w-[30rem] mx-[8rem]   ">
-            <img className="h-full w-full" src={Slide3} alt="" />
-          </div>
-          <div className="h-[20rem] w-[30rem] mx-[8rem]  ">
-            <img className="h-full w-full" src={Slide4} alt="" />
+          <div className="h-[10rem] m-auto   mx-[8rem] flex justify-center ">
+            <img
+              className="max-w-[50rem] max-h-[2rem] scale-75"
+              src={SlideBawah}
+              alt=""
+            />
           </div>
         </Carousel>
       </div>
-      <div className=" sm:hidden sm:flex">
+      {/* Dekstop */}
+      <div className=" sm:hidden ">
+        {" "}
         <Carousel
           useArrowKeys={true}
           responsive={true}
@@ -77,9 +80,9 @@ export const Section6 = () => {
           slide={1}
           swipeOn={true}
           swiping={true}
-          className={` flex justify-between gap-[0rem]  sm:mt-[4rem] items-center`}
+          className={` flex justify-between gap-[0rem]  mb-[10rem] sm:mt-[4rem] items-center`}
           rightArrow={
-            <div className="h-[3rem] flex items-center absolute   justify-center ml-[-4rem] w-[3rem] rounded-md bg-[#0000004b]">
+            <div className="h-[3rem] flex items-center absolute justify-center ml-[-4rem] w-[3rem] rounded-md ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -97,7 +100,7 @@ export const Section6 = () => {
             </div>
           }
           leftArrow={
-            <div className="h-[3rem] absolute flex items-center   justify-center ml-[2rem]  z-40  w-[3rem] ≈  bg-[#0000004b]">
+            <div className="h-[3rem] absolute flex items-center justify-center ml-[2rem]  z-40  w-[3rem] ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -115,25 +118,24 @@ export const Section6 = () => {
             </div>
           }
         >
-          <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide1} alt="" />
+          <div className="h-[12rem] m-auto flex justify-center items-center">
+            <img
+              className="h-[6rem] max-w-[20rem]  scale-75"
+              src={SlideBawah}
+              alt=""
+            />
           </div>
-          <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide2} alt="" />
-          </div>
-          <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide3} alt="" />
-          </div>
-          <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full" src={Slide4} alt="" />
+          <div className="h-[12rem] m-auto flex justify-center items-center">
+            <img
+              className="h-[6rem] max-w-[20rem] scale-75"
+              src={SlideBawah}
+              alt=""
+            />
           </div>
         </Carousel>
       </div>
-      <p className=" w-10/12 sm:w-9/12 sm:text-center m-auto mt-[3rem] sm:mt-[20rem]  text-xl sm:text-[2rem]  tracking-wide	 leading-[2.6rem] fontInter">
-        Our network is built to ensure that traffic get’s to it’s destination In
-        the most efficient way. By default, your traffic is handled by our
-        premium priority network. Need more? Then consider <br /> our further
-        enhanced platinum service.
+      <p className="w-full absolute bottom-0 bg-[#050017]   text-center text-white py-4">
+        © 2022 Mobile Fiber{" "}
       </p>
     </div>
   );
