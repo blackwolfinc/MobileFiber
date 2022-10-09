@@ -7,7 +7,10 @@ import Slide4 from "../image/slider/Slide4.png";
 
 export const Section6 = () => {
   return (
-    <div className="sm:bg-gradient-to-b sm:from-[#3a2e6686] sm:to-[#3a2e6600] mb-[5rem] sm:mb-[10rem]  mt-[3rem] sm:mt-[15rem]      sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
+    <div
+      id="galery"
+      className="sm:bg-gradient-to-b sm:from-[#3a2e6686] sm:to-[#3a2e6600] mb-[5rem] sm:mb-[10rem]  mt-[3rem] sm:mt-[15rem]      sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col"
+    >
       <div className="hidden sm:visible sm:flex">
         {" "}
         <Carousel

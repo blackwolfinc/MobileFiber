@@ -5,7 +5,10 @@ export const Section2 = () => {
   return (
     <div className=" backgroundSection2  w-full lg:min-w-[1424px] h-full  min-h-[720px] sm:min-h-[1382px]   flex flex-col">
       <div className="w-full flex justify-center mt-[4rem] sm:mt-[8rem] sm:mt-[10rem] pt-[2rem] sm:pt-0 flex flex-col justify-center items-center">
-        <h1 className="text-[3rem] sm:text-[6rem]  font-HeaderSection">
+        <h1
+          id="homepage"
+          className="text-[3rem] sm:text-[6rem]  font-HeaderSection"
+        >
           Up to 1Gbps
         </h1>
         <h1 className="text-sm mt-[-0.6rem] sm:text-[1.7rem] sm:mt-[-1rem] text-center">

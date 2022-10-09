@@ -3,7 +3,10 @@ import LogoMobileBlack from "../image/icons/LogoMobileBlack.svg";
 
 export const Section4 = () => {
   return (
-    <div className=" backgroundSection4    border-[1rem] sm:border-0 lg:min-w-[1424px] h-full min-h-[420px] sm:min-h-[782px]      flex flex-col">
+    <div
+      id="contact"
+      className=" backgroundSection4    border-[1rem] sm:border-0 lg:min-w-[1424px] h-full min-h-[420px] sm:min-h-[782px]      flex flex-col"
+    >
       <div className="w-full flex flex-col  items-left text-[1rem] sm:text-[1.8rem] pl-[2rem] sm:ml-[-2rem]  sm:pr-[24rem] mt-[3.8rem]  sm:mt-[17.5rem] text-left  sm:text-right  font-HeaderSection">
         If you need help, <br />
         we’re here for you.
