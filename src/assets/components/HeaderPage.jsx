@@ -5,10 +5,10 @@ import HumbergerWhite from "../image/icons/HubergerWhite.svg";
 import LogoMobile from "../image/icons/LogoMobile.svg";
 
 const HeaderPage = () => {
-  const [OpenNav, setOpenNav] = useState(true);
+  const [OpenNav, setOpenNav] = useState(false);
   const RenderNav = () => {
     return (
-      <div className="sm:hidden fixed bg-[#373434] w-screen h-screen z-50">
+      <div className="sm:hidden fixed bg-[#373434] w-screen h-[80rem] z-50">
         <div className="flex py-4 px-6 flex-row  sm:flex sm:p-10   w-full justify-between  items-center   max-w-[1430px] absolute ">
           <div className="flex bg-white rounded-md pl-10 pr-4 ml-[-2.5rem] sm:hidden  ">
             <img src={LogoMobile} alt="" />
