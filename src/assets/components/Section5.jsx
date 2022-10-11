@@ -14,7 +14,11 @@ export const Section5 = () => {
       className=" backgroundSection5 w-full   border-[1rem] sm:border-0 lg:min-w-[1424px] h-full min-h-[420px] sm:min-h-[782px]   flex flex-col"
     >
       <ToastContainer />
-      <div className="w-full  sm:w-fit flex flex-col text-right sm:text-left text-[1rem]  sm:text-[1.8rem] pr-[1.5rem] sm:pl-[2rem] sm:ml-[25rem]  sm:pr-[24rem] mt-[3.5rem] mb-[1rem]  sm:mt-[15.5rem] text-left  sm:text-left  font-HeaderSection">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="900"
+        className="w-full   sm:w-fit flex flex-col text-right sm:text-left text-[1rem]  sm:text-[1.8rem] pr-[1.5rem] sm:pl-[2rem] sm:ml-[25rem]  sm:pr-[24rem] mt-[3.5rem] mb-[1rem]  sm:mt-[15.5rem] text-left  sm:text-left  font-HeaderSection"
+      >
         Check avability <br />
         Connection in <br className="sm:hidden" />
         your area

@@ -9,6 +9,7 @@
     "@trendyol-js/react-carousel": "^3.0.0",
     "@typescript-eslint/parser": "^5.38.1",
     "add": "^2.0.6",
+    "aos": "^2.3.4",
     "framer-motion": "^7.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

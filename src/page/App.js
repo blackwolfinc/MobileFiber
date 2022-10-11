@@ -16,7 +16,7 @@ function App() {
     restDelta: 0.001,
   });
   return (
-    <div className="flex flex-col  lg:mx-0  lg:container 2xl:mx-auto">
+    <div className="flex flex-col  lg:mx-0   lg:container 2xl:mx-auto">
       <HeaderPage />
       <motion.div
         className="progress-bar bg-red-400"

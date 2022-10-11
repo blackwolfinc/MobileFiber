@@ -8,7 +8,11 @@ import SlideBawah from "../image/slider/SlideBawah.png";
 export const Section7 = () => {
   return (
     <div className="backgroundSection6 sm:mt-[30rem]  relative     sm:border-0 lg:min-w-[1424px] h-full sm:min-h-[520px]   flex flex-col">
-      <h1 className="w-full text-center text-[2rem] sm:text-[3rem] font-HeaderSection">
+      <h1
+        data-aos="fade-down"
+        data-aos-duration="900"
+        className="w-full text-center text-[2rem] sm:text-[3rem] font-HeaderSection"
+      >
         Our Patner{" "}
       </h1>
 
