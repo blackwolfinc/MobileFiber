@@ -40,7 +40,7 @@ export const Section5 = () => {
           onClick={() => {
             popUp();
           }}
-          className="  bg-[#694892] px-4 py-3 sm:px-12   sm:py-4 mr-[0rem]  sm:ml-[6rem]  sm:border-[4px] sm:rounded-[24px] sm:min-w-[15rem] w-full sm:w-fit"
+          className=" hover:scale-105 duration-300 bg-[#694892] px-4 py-3 sm:px-12   sm:py-4 mr-[0rem]  sm:ml-[6rem]  sm:border-[4px] sm:rounded-[24px] sm:min-w-[15rem] w-full sm:w-fit"
         >
           <h4 className="text-[#FBFBFB] font-HeaderSection"> CHECK</h4>
         </button>

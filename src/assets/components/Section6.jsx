@@ -118,8 +118,8 @@ export const Section6 = () => {
             </div>
           }
         >
-          <div className="h-[20rem] w-[30rem] ">
-            <img className="h-full w-full rounded-md" src={Slide1} alt="" />
+          <div className="h-[20rem] w-[30rem]  ">
+            <img className="h-full w-full rounded-md " src={Slide1} alt="" />
           </div>
           <div className="h-[20rem] w-[30rem] ">
             <img className="h-full w-full rounded-md" src={Slide2} alt="" />

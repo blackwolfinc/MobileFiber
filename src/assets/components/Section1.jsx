@@ -8,7 +8,7 @@ export const Section1 = () => {
         <div className="flex w-full flex-row mb-[2rem]">
           <div className="w-full hidden sm:flex sm:w-4/12"></div>
           <div className="w-full mt-[-3rem] sm:mt-0  justify-center items-center  flex-col  sm:w-7/12  flex  ml-[1rem] mb-z ">
-            <h1 className="hidden sm:flex text-[2rem]  sm:text-[5.5rem] font-Header">
+            <h1 className="hidden hover:scale-[97%] duration-500 sm:flex text-[2rem]  sm:text-[5.5rem] font-Header">
               Mobile Fiber{" "}
             </h1>
             <img
